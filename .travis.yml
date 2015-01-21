@@ -1,0 +1,13 @@
+language: node_js
+node_js:
+- '0.11'
+- '0.10'
+deploy:
+  provider: npm
+  email: mark@segfawlt.net
+  api_key:
+    secure: k/yfBJqf2pdw/8Fv7zCagGXqISYOUFXP93xwGVoxFANvioLPa8wtZv4vHaomaqTvUFwohuhobB931TA0s4MqrbSJAaGkgXfhoZUjroHtjQv27WLwRDGQZ1kjPGUoXesup7QO1RWoEgvVtgPql9TV8eH9+2qvgrRyTbIucwlNPig=
+  on:
+    tags: true
+    repo: markhuge/mailgun-stream
+    all_branches: true
