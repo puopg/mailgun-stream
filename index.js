@@ -12,6 +12,7 @@ function transform (obj, encoding, callback) {
   if (typeof obj != 'object') return callback("Expecting object, but got " + typeof obj);
   mail.send(obj);
   this.push(obj);
+  callback();
 }
 
 function flush (callback) {
