@@ -5,9 +5,9 @@ node_js:
 deploy:
   provider: npm
   email: mark@segfawlt.net
-  api_key:
-    secure: k/yfBJqf2pdw/8Fv7zCagGXqISYOUFXP93xwGVoxFANvioLPa8wtZv4vHaomaqTvUFwohuhobB931TA0s4MqrbSJAaGkgXfhoZUjroHtjQv27WLwRDGQZ1kjPGUoXesup7QO1RWoEgvVtgPql9TV8eH9+2qvgrRyTbIucwlNPig=
   on:
     tags: true
     repo: markhuge/mailgun-stream
     all_branches: true
+  api_key:
+    secure: cAQJYYtO+0fw6gQcTnDqlE/JXeKXb/oz5au93uz50635L8CByEkfwtUfxbolFO3Chbii7nUkiQN1gAAQxAqKS7wD6toWpmlsW+yLlbe3D4r9gisd8Z5vZiNrj5g7Ei7ocWQHmx7UYc4PxL7lLd9FrMI+/z6hwO140PpvlMZCSQs=

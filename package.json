@@ -1,6 +1,6 @@
 {
   "name": "mailgun-stream",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "Pipe messages to Mailgun",
   "main": "index.js",
   "scripts": {
